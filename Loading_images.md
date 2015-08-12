@@ -41,17 +41,29 @@
 ### 持续时间
 加载图片时推荐长一点的持续时间，过渡时推荐短一点的持续时间。
 
-vedio
+
+<video crossorigin="anonymous"  loop  controls width="360" height="360">
+<source src="http://materialdesign.qiniudn.com/publish/material_v_4/material_ext_publish/0B08MbvYZK1iNM2xXbGwyN2pISUE/patterns-imagerytreatment-imageload-transition_large_xhdpi.webm" type="video/webm">
+</video>
+
 加载和过渡动画
 
 ### 大一点的屏幕
 这个过程对于大一点的屏幕比较理想，例如加载 Chrome OS 的墙纸。
 
-vedio
+```
+<video crossorigin="anonymous"  loop  controls width="740" height="270">
+<source src="http://materialdesign.qiniudn.com/videos/animation-authentic-motion-authenticMotion_massAndWeight_ex1_large_xhdpi.webm" type="video/webm">
+</video>
+```
 动画显示了在大一点的屏幕上加载 Chrome OS 墙纸。
 
 ### 添加动画
 给正在加载的图片一个小的位移。这里账户切换中的背景图片水平移动。
 
-vedio
+```
+<video crossorigin="anonymous"  loop  controls width="360" height="360">
+<source src="http://materialdesign.qiniudn.com/publish/material_v_4/material_ext_publish/0B08MbvYZK1iNM2xXbGwyN2pISUE/patterns-imagerytreatment-imageload-transition_large_xhdpi.webm">
+</video>
+```
 显示添加移动的视频。
