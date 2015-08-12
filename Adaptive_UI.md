@@ -45,6 +45,7 @@ Material design 的自适应 UI 是基于一个 12 列的栏栅布局。这个�
 外边距与间隔没必要相等。例如，在同一个布局中使用 40 dp 的外边距和 24 dp 的间隔是完全可取的。
 
 这个动画显示了下面这些宽度的外边距和间隔的不同搭配：
+
 1. 8 dp 外边距和间隔
 2. 16 dp 外边距和间隔
 3. 24 dp 外边距和间隔
@@ -84,13 +85,13 @@ Material design 的自适应 UI 是基于一个 12 列的栏栅布局。这个�
 ##表现行为
 当屏幕尺寸变化时，UI 采用下面指定的表面行为来适应。
 
-可见性
+可见性  
 ![](https://github.com/zhaochong/material-design/blob/master/images/5_4.png)
 
-宽度
+宽度  
 ![](https://github.com/zhaochong/material-design/blob/master/images/5_5.png)
 
-描述
+描述  
 ![](https://github.com/zhaochong/material-design/blob/master/images/5_6.png)
 
 ## 模式
