@@ -32,6 +32,9 @@ Material Design 中的响应式布局适用于任何尺寸的屏幕。自适应 
 ## 栏栅
 Material design 的自适应 UI 是基于一个 12 列的栏栅布局。这个栏栅提供了不同布局之间的视觉一致性，而又保持了多样化设计的灵活性。栏栅列的数量基于系统断点而变化。
 
+<video crossorigin="anonymous"  loop  controls width="740" height="270">
+<source src="http://materialdesign.qiniudn.com/videos/animation-authentic-motion-authenticMotion_massAndWeight_ex1_large_xhdpi.webm" type="video/webm">
+</video>
 这个动画效果展示了不同平面和面板是如何排列在一起从而影响上述12列栏栅的。
 
 ## 外边距与间隔
