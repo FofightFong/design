@@ -44,7 +44,6 @@ DPI =屏幕宽度（或高度）像素/屏幕宽度（或高度）英寸
 ![](https://github.com/zhaochong/material-design/blob/master/images/4_5.png)
 
 ![](https://github.com/zhaochong/material-design/blob/master/images/4_6.png)
-
 如果你有三个屏幕，都是1.5英寸宽，不同的屏幕分辨率，那么他们屏幕宽度仍为240的分辨率。
 
 1dp 和160 dpi 屏幕的一个物理像素相等。计算 dp 的方法：
