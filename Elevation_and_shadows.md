@@ -136,9 +136,14 @@ Material design 中的对象与现实生活中的对象具有相似的性质。�
 ### 高度
 你会如何确定某些对象的高度（即它们在Z空间的位置）取决于你想描述的内容层次以及某一个对象是否需要相对于其他对象自主移动。
 
-
+<video crossorigin="anonymous"  loop  controls width="740" height="270">
+<source src="http://materialdesign.qiniudn.com/videos/animation-authentic-motion-authenticMotion_massAndWeight_ex1_large_xhdpi.webm" type="video/webm">
+</video>
 随着父表的移动，升高的按钮（它的子元素）会伴随着它移出屏幕。
 
+<video crossorigin="anonymous"  loop  controls width="740" height="270">
+<source src="http://materialdesign.qiniudn.com/videos/animation-authentic-motion-authenticMotion_massAndWeight_ex1_large_xhdpi.webm" type="video/webm">
+</video>
 随着卡片集合卷出了屏幕，它的子卡片也会随之卷出屏幕。浮动动作按钮保留在某一地点因为它的父元素没有被卷动。
 
 
