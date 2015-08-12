@@ -31,11 +31,9 @@ DPI =屏幕宽度（或高度）像素/屏幕宽度（或高度）英寸
 支持安卓系统的测量单位。
 
 ![](https://github.com/zhaochong/material-design/blob/master/images/4_3.png)
-
 高密度屏幕
 
 ![](https://github.com/zhaochong/material-design/blob/master/images/4_4.png)
-
 低密度屏幕
 
 ## 密度独立像素
