@@ -89,12 +89,17 @@
 带有错误文本的浮动文本标签例子
 
 ![](https://github.com/zhaochong/material-design/blob/master/images/12_13.png)
-浮动文本标签的规格
+带有提示文本/标签以及带有输入文本、标签和错误的例子
 
 ![](https://github.com/zhaochong/material-design/blob/master/images/12_14.png)
+浮动文本标签的规格
+
 总高：80 dp
+
 标签文本上面的内边距：8 dp
+
 输入文本上面和下面的内边距：8 dp
+
 错误文本上面和下面的内边距：4 dp
 
 ### 文本输入框-上/下字符或者字数
@@ -121,8 +126,11 @@
 
 ![](https://github.com/zhaochong/material-design/blob/master/images/12_20.png)
 文本输入框
+
 单行输入标签的顶部内边距：16 dp
+
 单行输入文本框的顶部和底部内边距：8 dp
+
 完整输入区域的高度：88 dp
 
 ### 不相容的值
