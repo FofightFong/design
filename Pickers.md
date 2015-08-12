@@ -1,7 +1,7 @@
 # 选择器
 选择器提供了一个简单的方法来从一个预定义集合中选取单个值。
 
-在手机上，选择器最适合被用来显示一个确认对话框。对于内联显示，例如一个表单中，考虑使用分段下拉按钮之类的紧凑控制。在你的应用中使用这些组件可以帮你保证用户指定的日期或者时间是正确格式化的。
+在手机上，选择器最适合被用来显示一个[确认对话框](https://www.google.com/design/spec/components/dialogs.html#dialogs-confirmation-dialogs)。对于内联显示，例如一个表单中，考虑使用[分段下拉按钮](https://www.google.com/design/spec/components/buttons.html#buttons-other-buttons)之类的紧凑控制。在你的应用中使用这些组件可以帮你保证用户指定的日期或者时间是正确格式化的。
 
 - 日期选择器的格式根据地区自动进行调整，即，美国是月-日-年，其他地区是日-月-年。
 - 时间选择器的格式根据用户的喜好进行设定，即，12小时或者24小时的格式。
@@ -20,7 +20,9 @@
 
 从左滑到右来选择月份。点击标题 bar 中的年份转换到年份页面。
 
-vedio
+<video crossorigin="anonymous"  loop  controls width="360" height="640">
+<source src="http://materialdesign.qiniudn.com/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsSm5KN1FNQXRFRDA/components_pickers_date_navigation_xhdpi_004.webm" type="video/webm">
+</video>
 日期选择导航
 
 选择器页面自适应于设备的方向。
