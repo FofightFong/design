@@ -4,88 +4,96 @@ Material design 中的对象与现实生活中的对象具有相似的性质。�
 
 依据这些性质所构造出来的空间模型对于用户来说是非常熟悉的，这一模型也可以被长期应用于移动应用当中。支撑这一空间模型的正是“高度”（Elevation）和“光影”（Shadows）这两个概念。
 
+> 高度（安卓）  
+> 阴影  
+> 元素关系  
+
 ## 高度（安卓）
-高度是在Z轴上两个不同平面之间的一种相对深度或距离。
+高度是在 Z 轴上两个不同平面之间的一种相对深度或距离。
 
 **详述：**
 
-- “高度”的度量单位与 XY 轴的度量单位相同，主要是 DP。由于所有 Material 元素都具有1单位 DP 的厚度，所以“高度”度量的是从一个平面顶部到另一个平面顶部的距离。
+- “高度”的度量单位与 XY 轴的度量单位相同，主要是 DP。由于所有 Material 元素都具有 1 单位 DP 的厚度，所以“高度”度量的是从一个平面顶部到另一个平面顶部的距离。
 - 一个子对象的高度与其父对象的高度相关。
 
 这里是一些与安卓应用相关的图表和数据。
 
+```
 阴影影响
+为自定义元素定义“阴影”
+```
 
-为传统元素定义“阴影”
-
-![](https://github.com/zhaochong/material-design/blob/master/images/3_1.png)
+![](https://github.com/zhaochong/material-design/blob/master/images/3_1.png)  
 两个对象间的多种高度度量
 
 ### 静止高度
 所有 Material 对象除去大小之外，还有一个“静止高度”，或者称“默认高度”，它是不会变化的。当一个对象的高度产生变化时，它将会尽快恢复到自身的静止高度。
 
-**组件高度**
-- 某一要素类型的静止高度在移动应用中是一个常量。（比如，FAB 高度不会在某一个应用中是6 dp 而在另一个应用中是16 dp）
-- 要素在某一平台中可能会存在多种静止高度，这取决于环境的深度。（比如，TV 相比于移动端和桌面来说就具有更深的层次）
+#### 组件高度
+- 某一元素类型的静止高度在移动应用中是一个常量。（比如，FAB 高度不会在某一个应用中是6 dp 而在另一个应用中是16 dp）
+- 元素在某一平台中可能会存在多种静止高度，这取决于环境的深度。（比如，TV 相比于移动端和桌面来说就具有更深的层次）
 
-**感应高度与动态高度偏移**
-一些要素类型拥有感应高度，也就是说它们会根据用户的输入（比如常规的、关注的和压制的）或系统事件来改变高度。这些高度的变化会通过动态高度偏移而不断生成。
+#### 感应高度与动态高度偏移
+一些元素类型拥有感应高度，也就是说它们会根据用户的输入（比如常规的、关注的和压制的）或系统事件来改变高度。这些高度的变化会通过动态高度偏移而不断生成。
 
-动态高度偏移是某一要素移动的目标高度，它与该要素的静止状态有关。可以确定的是高度的变化在事件和要素类型中是持久发生的。比如说，所有通过按压来提升的要素相对于其静态高度来说都具有相似的高度变化。
+动态高度偏移是某一元素移动的目标高度，它与该元素的静止状态有关。可以确定的是高度的变化在事件和元素类型中是持久发生的。比如说，所有通过按压来提升的元素相对于其静态高度来说都具有相似的高度变化。
 
-一旦输入事件完成或被取消，那么要素将会恢复到它的静止高度上。
+一旦输入事件完成或被取消，那么元素将会恢复到它的静止高度上。
 
-**避免高度冲突**
-处于感应高度的要素当它在静止高度与动态高度偏移之间移动的时候可能会遇到其他的要素。由于 Material 不能相互交叉，没有任何一种方式能够让要素之间产生冲突，无论是基于均要素基础（per-component basis）还是通过使用完整应用布局。
+#### 避免高度冲突
+处于感应高度的元素当它在静止高度与动态高度偏移之间移动的时候可能会遇到其他的元素。由于 Material 不能相互交叉，没有任何一种方式能够让元素之间产生冲突，无论是基于均元素基础（per-component basis）还是通过使用完整应用布局。
 
-在某一个要素水平上，要素可以在它们产生冲突之前提前移动或被移动。比如说，一个“浮动动作按钮”（FAB）可以在用户选择一张卡片之前消失或移出屏幕，或者它也可以在某一个 “snack bar” 出现时移动。
+在某一个元素水平上，元素可以在它们产生冲突之前提前移动或被移动。比如说，一个“浮动动作按钮”（FAB）可以在用户选择一张卡片之前消失或移出屏幕，或者它也可以在某一个 “snack bar” 出现时移动。
 
 在布局水平上，你需要通过设计你的应用布局来将产生冲突的机会降到最低水平。比如说，可以通过将 FAB 置于某个卡片流的一端来避免当用户尝试获取某个卡片时所产生的冲突。
 
-### 要素高度比较
-下面的图表对比了多种要素的静止高度和动态高度偏移。
+![](https://github.com/zhaochong/material-design/blob/master/images/2_0_1.png)  
+![](https://github.com/zhaochong/material-design/blob/master/images/2_0_2.png)  
 
-![](https://github.com/zhaochong/material-design/blob/master/images/3_2.png)
-在这一图表中，只有高度的尺寸和要素布局是精确的。其他尺寸和整体的要素布局只是为了说明而列出的。
+### 元素高度比较
+下面的图表对比了多种元素的静止高度和动态高度偏移。
 
-![](https://github.com/zhaochong/material-design/blob/master/images/3_3.png)
-一个包含卡片和FAB应用布局的实例与它在Z轴上要素高度的横截面图表。
+![](https://github.com/zhaochong/material-design/blob/master/images/3_2.png)  
+在这一图表中，只有高度的尺寸和元素布局是精确的。其他尺寸和整体的元素布局只是为了说明而列出的。
 
-![](https://github.com/zhaochong/material-design/blob/master/images/3_4.png)
-一个包含开放导航抽屉的应用布局实例与它在Z轴上要素高度的横截面图表。
+![](https://github.com/zhaochong/material-design/blob/master/images/3_3.png)  
+一个包含卡片和FAB应用布局的实例与它在Z轴上元素高度的横截面图表。
+
+![](https://github.com/zhaochong/material-design/blob/master/images/3_4.png)  
+一个包含开放导航抽屉的应用布局实例与它在Z轴上元素高度的横截面图表。
 
 ## 阴影
 “阴影”提供了对象深度和方向性移动的重要视觉线索。它们是唯一一种标示不同平面之间分离程度的视觉线索。某一对象的“高度”决定了其具体“阴影”的表现形式。
 
-![](https://github.com/zhaochong/material-design/blob/master/images/3_5.png)
+![](https://github.com/zhaochong/material-design/blob/master/images/3_5.png)  
 否。一旦没有了阴影，没有什么可以标示浮动动作按钮是从背景层分离出来的。
 
-![](https://github.com/zhaochong/material-design/blob/master/images/3_6.png)
+![](https://github.com/zhaochong/material-design/blob/master/images/3_6.png)  
 否。卷曲的阴影说明浮动动作按钮与“蓝层”（blue sheet）是两个分离开来的元素。然而，由于它们的阴影非常的相似以至于会被误认为它们在同一高度上。
 
-![](https://github.com/zhaochong/material-design/blob/master/images/3_7.png)
+![](https://github.com/zhaochong/material-design/blob/master/images/3_7.png)  
 是。更柔和、更大的阴影说明浮动动作按钮相比于拥有更卷曲阴影的“蓝层”（blue sheet）处于更高的高度之上。
 
 
 在运动中，阴影提供了关于某个对象移动方向以及不同平面之间距离是否正在增加或减少的有用线索。
 
-![](https://github.com/zhaochong/material-design/blob/master/images/3_8.png)
+![](https://github.com/zhaochong/material-design/blob/master/images/3_8.png)  
 否。如果没有一个阴影来说明高度，那么就不能明确一个方形到底是它的自身尺寸在增加还是它的高度在增加。
 
-![](https://github.com/zhaochong/material-design/blob/master/images/3_9.png)
+![](https://github.com/zhaochong/material-design/blob/master/images/3_9.png)  
 是。当某一个对象的高度增加时其阴影会变得更柔和、更大，当其高度减小时，阴影会变得更卷曲。
 
-![](https://github.com/zhaochong/material-design/blob/master/images/3_10.png)
+![](https://github.com/zhaochong/material-design/blob/master/images/3_10.png)  
 是。在这一实例中，连贯的阴影帮助用户明白某一个对象看起来好像是它的高度在增加其实是它的形状在改变。
 
-## 要素参考阴影
-下面的要素阴影应被用于标准参考。如果在说明中涉及任何关于下面的参考阴影和要素阴影的不同情况出现，那么都归于参考阴影。
+## 元素参考阴影
+下面的元素阴影应被用于标准参考。如果在说明中涉及任何关于下面的参考阴影和元素阴影的不同情况出现，那么都归于参考阴影。
 
 **应用条**
 
 4dp
 
-![](https://github.com/zhaochong/material-design/blob/master/images/3_11.png)
+![](https://github.com/zhaochong/material-design/blob/master/images/3_11.png)  
 
 
 **浮动按钮**
@@ -94,7 +102,7 @@ Material design 中的对象与现实生活中的对象具有相似的性质。�
 
 敲击状态：8dp
 
-![](https://github.com/zhaochong/material-design/blob/master/images/3_12.png)
+![](https://github.com/zhaochong/material-design/blob/master/images/3_12.png)  
 
 **浮动动作按钮（FAB）**
 
@@ -102,7 +110,7 @@ Material design 中的对象与现实生活中的对象具有相似的性质。�
 
 敲击状态：12dp
 
-![](https://github.com/zhaochong/material-design/blob/master/images/3_14.png)
+![](https://github.com/zhaochong/material-design/blob/master/images/3_14.png)  
 
 **卡片**
 
@@ -110,7 +118,7 @@ Material design 中的对象与现实生活中的对象具有相似的性质。�
 
 选中状态：8dp
 
-![](https://github.com/zhaochong/material-design/blob/master/images/3_16.png)
+![](https://github.com/zhaochong/material-design/blob/master/images/3_16.png)  
 
 **菜单和子菜单**
 
@@ -118,52 +126,48 @@ Material design 中的对象与现实生活中的对象具有相似的性质。�
 
 子菜单：9dp（为子菜单增加 1dp）
 
-![](https://github.com/zhaochong/material-design/blob/master/images/3_18.png)
+![](https://github.com/zhaochong/material-design/blob/master/images/3_18.png)  
 
 **对话框**
 
 24dp
 
-![](https://github.com/zhaochong/material-design/blob/master/images/3_19.png)
+![](https://github.com/zhaochong/material-design/blob/master/images/3_19.png)  
 
 **导航抽屉和右抽屉**
 
 16dp
 
-![](https://github.com/zhaochong/material-design/blob/master/images/3_20.png)
+![](https://github.com/zhaochong/material-design/blob/master/images/3_20.png)  
 
 **底部单页**
 
 16dp
 
-![](https://github.com/zhaochong/material-design/blob/master/images/3_21.png)
+![](https://github.com/zhaochong/material-design/blob/master/images/3_21.png)  
 
 **刷新按钮**
 
 3dp
 
-![](https://github.com/zhaochong/material-design/blob/master/images/3_22.png)
-
-
+![](https://github.com/zhaochong/material-design/blob/master/images/3_22.png)  
 **快速查询/搜索条**
 
 静止状态：2dp
 
 滚动状态：3dp
 
-![](https://github.com/zhaochong/material-design/blob/master/images/3_23.png)
-
+![](https://github.com/zhaochong/material-design/blob/master/images/3_23.png)  
 **Snackbar**
 
 6dp
 
-![](https://github.com/zhaochong/material-design/blob/master/images/3_25.png)
-
+![](https://github.com/zhaochong/material-design/blob/master/images/3_25.png)  
 **切换按钮**
 
 1dp
 
-![](https://github.com/zhaochong/material-design/blob/master/images/3_26.png)
+![](https://github.com/zhaochong/material-design/blob/master/images/3_26.png)  
 
 
 
@@ -195,14 +199,18 @@ Material design 中的对象与现实生活中的对象具有相似的性质。�
 ### 高度
 你会如何确定某些对象的高度（即它们在Z空间的位置）取决于你想描述的内容层次以及某一个对象是否需要相对于其他对象自主移动。
 
-<video crossorigin="anonymous"  loop  controls width="760" height="280">
+```
+<video crossorigin="anonymous"  loop  controls width="760" height="480">
 <source src="http://materialdesign.qiniudn.com/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsbHQ3X1ZoVXY3NjQ/WhatIsMaterial_ObjectsIn3DSpace_ObjectRelationships_01_RaisedChildButton_001.webm" type="video/webm">
 </video>
+```
 随着父表的移动，升高的按钮（它的子元素）会伴随着它移出屏幕。
 
-<video crossorigin="anonymous"  loop  controls width="760" height="280">
+```
+<video crossorigin="anonymous"  loop  controls width="760" height="480">
 <source src="http://materialdesign.qiniudn.com/publish/material_v_4/material_ext_publish/0B6Okdz75tqQscnNBNFlpaTIxNnM/WhatIsMaterial_ObjectsIn3DSpace_ObjectRelationships_02_FAB_001.webm" type="video/webm">
 </video>
+```
 随着卡片集合卷出了屏幕，它的子卡片也会随之卷出屏幕。浮动动作按钮保留在某一地点因为它的父元素没有被卷动。
 
 
