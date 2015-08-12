@@ -26,44 +26,44 @@
 
 在文本框和下面的错误文本之间放置 16 dp 的垂直空间。
 
-![]()
+![](https://github.com/zhaochong/material-design/blob/master/images/12_1.png)
 一个文本输入框的例子
 
-![]()
+![](https://github.com/zhaochong/material-design/blob/master/images/12_2.png)
 一个带有错误提示的文本输入框的例子
 
 ### 白色背景的字体
 - 错误: Roboto Regular 12sp #DD2C00
 - 提示和帮助文本: #000000 with 38% opacity
 
-![]()
+![](https://github.com/zhaochong/material-design/blob/master/images/12_3.png)
 白色主题用在这里显示以下情形：带有提示文本，带有错误文本，带有帮助文本，将错误文本作为帮助文本
 
 ### 黑色背景的字体
 - 错误文本: Roboto Regular 12sp
 - 提示和帮助文本: #FFFFFF with 30% opacity
 
-![]()
+![](https://github.com/zhaochong/material-design/blob/master/images/12_4.png)
 黑色主题用在这里显示以下情形：带有提示文本，带有错误文本，带有帮助文本，将错误文本作为帮助文本
 
 ### 帮助和错误文本
 
-![]()
+![](https://github.com/zhaochong/material-design/blob/master/images/12_5.png)
 带有帮助文本的例子
 
-![]()
+![](https://github.com/zhaochong/material-design/blob/master/images/12_6.png)
 带有错误文本的例子
 
-![]()
+![](https://github.com/zhaochong/material-design/blob/master/images/12_7.png)
 带有帮助文本的例子
 
-![]()
+![](https://github.com/zhaochong/material-design/blob/master/images/12_8.png)
 带有错误文本的例子
 
-![]()
+![](https://github.com/zhaochong/material-design/blob/master/images/12_9.png)
 带有帮助文本以及帮助文本和错误文本的例子
 
-![]()
+![](https://github.com/zhaochong/material-design/blob/master/images/12_10.png)
 输入和错误文本
 
 总共高：64 dp
@@ -75,16 +75,16 @@
 错误文本上面和下面的内边距：4 dp
 
 ### 浮动文本标签相关错误
-![]()
+![](https://github.com/zhaochong/material-design/blob/master/images/12_11.png)
 带有输入文本的浮动文本标签例子
 
-![]()
+![](https://github.com/zhaochong/material-design/blob/master/images/12_12.png)
 带有错误文本的浮动文本标签例子
 
-![]()
+![](https://github.com/zhaochong/material-design/blob/master/images/12_13.png)
 浮动文本标签的规格
 
-![]()
+![](https://github.com/zhaochong/material-design/blob/master/images/12_14.png)
 总高：80 dp
 标签文本上面的内边距：8 dp
 输入文本上面和下面的内边距：8 dp
@@ -96,23 +96,23 @@
 - 计数器域有 16 dp 的额外底部内边距
 
 ### 带有字符计数器的单行
-![]()
+![](https://github.com/zhaochong/material-design/blob/master/images/12_15.png)
 带有用户输入框的字符计数器单行的例子
 
-![]()
+![](https://github.com/zhaochong/material-design/blob/master/images/12_16.png)
 带有错误文本的字符计数器单行的例子
 
 ### 带有字符计数器的多行文本
-![]()
+![](https://github.com/zhaochong/material-design/blob/master/images/12_17.png)
 带有多行用户输入文本和字符计数器的例子
 
-![]()
+![](https://github.com/zhaochong/material-design/blob/master/images/12_18.png)
 带有多行超出字数限制文本和字符计数器的例子
 
-![]()
+![](https://github.com/zhaochong/material-design/blob/master/images/12_19.png)
 这些情形的例子：带有用户输入文本的单行输入标签，带有错误文本的单行输入标签，带有用户输入文本的单行输入标签，带有错误文本的多行输入标签
 
-![]()
+![](https://github.com/zhaochong/material-design/blob/master/images/12_20.png)
 文本输入框
 单行输入标签的顶部内边距：16 dp
 单行输入文本框的顶部和底部内边距：8 dp
@@ -128,10 +128,10 @@
 ### 提交表单时检测到的错误
 重新加载带有合并错误内容的表单，在顶部进行滚动。单个输入框的错误消息可以在用户完成表单后解决。
 
-![]()
+![](https://github.com/zhaochong/material-design/blob/master/images/12_21.png)
 表单例子
 
-![]()
+![](https://github.com/zhaochong/material-design/blob/master/images/12_22.png)
 试图提交表单之后检测到错误的例子
 
 ### 不完整表单
@@ -142,14 +142,14 @@
 ### 表单提交之前的多个错误
 用户处理表单时的单个标签错误消息。
 
-![]()
+![](https://github.com/zhaochong/material-design/blob/master/images/12_23.png)
 表单示例
 
-![]()
+![](https://github.com/zhaochong/material-design/blob/master/images/12_24.png)
 不完整表单示例
 
 ### 单行错误列表
-![]()
+![](https://github.com/zhaochong/material-design/blob/master/images/12_25.png)
 单行错误列表的例子
 
 
@@ -163,20 +163,20 @@
 
 如果可能的话，给你的用户一个动作来帮助他们关注到错误。
 
-![]()
+![](https://github.com/zhaochong/material-design/blob/master/images/12_26.png)
 警告对话框：关于一个正在阻碍正常操作的错误的应用反馈
 
-![]()
+![](https://github.com/zhaochong/material-design/blob/master/images/12_26_2.png)
 Snackbar：次要错误的应用反馈。Snackbar是短暂的，不要用它们来提示关键、持续以及大量的错误。
 
 
 ### 加载同步错误/失败
 同步失败或者内容加载失败，用户应该可以与剩下的大部分应用内容进行交互。
 
-![]()
+![](https://github.com/zhaochong/material-design/blob/master/images/12_27.png)
 屏幕/内容加载失败的空状态。
 
-![]()
+![](https://github.com/zhaochong/material-design/blob/master/images/12_28.png)
 带有操作的容器/组件具体错误
 
 ### 连接
@@ -184,10 +184,10 @@ Snackbar：次要错误的应用反馈。Snackbar是短暂的，不要用它们�
 
 如果合适的话，显示一个连接来帮助用户完成他们的任务。只提供真正能有帮助的链接。例如，不要提供一个“再试一次”的选项，这种情况你是知道操作会失败的。
 
-![]()
+![](https://github.com/zhaochong/material-design/blob/master/images/12_29.png)
 带有重试操作的 Snackbar
 
-![]()
+![](https://github.com/zhaochong/material-design/blob/master/images/12_30.png)
 一个只有在线才能访问的页面的空状态
 
 
@@ -199,7 +199,7 @@ Snackbar：次要错误的应用反馈。Snackbar是短暂的，不要用它们�
 
 例如，在受限模式下，截屏和高级功能是不被允许的。
 
-![]()
+![](https://github.com/zhaochong/material-design/blob/master/images/12_31.png)
 Snackbar 以及特别模式指示器
 
 ### 选择下线
@@ -209,10 +209,10 @@ Snackbar 以及特别模式指示器
 - 飞行模式下打电话
 - 离线时的音乐可访问性
 
-![]()
+![](https://github.com/zhaochong/material-design/blob/master/images/12_32.png)
 Snackbar
 
-![]()
+![](https://github.com/zhaochong/material-design/blob/master/images/12_33.png)
 设备已经被放置到飞行模式的指示器
 
 ### 需要权限
@@ -224,5 +224,5 @@ Snackbar
 - 一个应用的权限已经发生变化。
 - 应用内置的购买已经被禁用。
 
-![]()
+![](https://github.com/zhaochong/material-design/blob/master/images/12_34.png)
 对话框
