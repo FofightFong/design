@@ -1,7 +1,6 @@
 
 # 环境
 
-> 内容
 > 三维世界（3D world）	
 > 光影关系（Light and shadow）
 
