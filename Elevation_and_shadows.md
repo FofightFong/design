@@ -15,6 +15,7 @@ Material design 中的对象与现实生活中的对象具有相似的性质。�
 这里是一些与安卓应用相关的图表和数据。
 
 阴影影响
+
 为传统元素定义“阴影”
 
 ![](https://github.com/zhaochong/material-design/blob/master/images/3_1.png)
@@ -53,12 +54,83 @@ Material design 中的对象与现实生活中的对象具有相似的性质。�
 ![](https://github.com/zhaochong/material-design/blob/master/images/3_4.png)
 一个包含开放导航抽屉的应用布局实例与它在Z轴上要素高度的横截面图表。
 
+## 阴影
+“阴影”提供了对象深度和方向性移动的重要视觉线索。它们是唯一一种标示不同平面之间分离程度的视觉线索。某一对象的“高度”决定了其具体“阴影”的表现形式。
+
+![](https://github.com/zhaochong/material-design/blob/master/images/3_5.png)
+否。一旦没有了阴影，没有什么可以标示浮动动作按钮是从背景层分离出来的。
+
+![](https://github.com/zhaochong/material-design/blob/master/images/3_6.png)
+否。卷曲的阴影说明浮动动作按钮与“蓝层”（blue sheet）是两个分离开来的元素。然而，由于它们的阴影非常的相似以至于会被误认为它们在同一高度上。
+
+![](https://github.com/zhaochong/material-design/blob/master/images/3_7.png)
+是。更柔和、更大的阴影说明浮动动作按钮相比于拥有更卷曲阴影的“蓝层”（blue sheet）处于更高的高度之上。
+
+
+在运动中，阴影提供了关于某个对象移动方向以及不同平面之间距离是否正在增加或减少的有用线索。
+
+![](https://github.com/zhaochong/material-design/blob/master/images/3_8.png)
+否。如果没有一个阴影来说明高度，那么就不能明确一个方形到底是它的自身尺寸在增加还是它的高度在增加。
+
+![](https://github.com/zhaochong/material-design/blob/master/images/3_9.png)
+是。当某一个对象的高度增加时其阴影会变得更柔和、更大，当其高度减小时，阴影会变得更卷曲。
+
+![](https://github.com/zhaochong/material-design/blob/master/images/3_10.png)
+是。在这一实例中，连贯的阴影帮助用户明白某一个对象看起来好像是它的高度在增加其实是它的形状在改变。
+
+## 要素参考阴影
+下面的要素阴影应被用于标准参考。如果在说明中涉及任何关于下面的参考阴影和要素阴影的不同情况出现，那么都归于参考阴影。
+
+**应用条**
+
+4dp
+
+![](https://github.com/zhaochong/material-design/blob/master/images/3_11.png)
+
+
+**浮动按钮**
+
+静态：2dp
+
+敲击状态：8dp
+
+![](https://github.com/zhaochong/material-design/blob/master/images/3_12.png)
+![](https://github.com/zhaochong/material-design/blob/master/images/3_13.png)
+
+**浮动动作按钮（FAB）**
+
+静态：6dp
+
+敲击状态：12dp
+
+![](https://github.com/zhaochong/material-design/blob/master/images/3_14.png)
+![](https://github.com/zhaochong/material-design/blob/master/images/3_15.png)
 
 
 
-
-
-
+对象关系
+对象层次
+你怎样去组织在某一应用中的对象或对象集合取决于它们怎样依据其他对象来移动。对象可以独立自主地移动或在受到比它更高层次对象限制的条件下移动。
+所有对象都是以“父-子”关系描述的层级体系的一部分。“子”元素在这一关系体系中代表它们“父”元素的下级元素。对象可以是这一系统的“子”元素或其他对象的“子”元素。
+“父-子”元素说明：
+每一个对象只有一个“父”元素。
+每一个对象可能会有任意数量的“子”元素。
+“子”元素继承来自“父”元素的可以转移的属性，比如位置、循环、刻度和高度。
+“兄弟”元素是指与某一对象处在同一层级的对象。
+例外
+项目以根元素为父元素，比如主UI元素，它们相比于其他对象来说会自主移动。比如说，浮动动作按钮不会与内容一起转动。其他元素包括：
+一个应用的边导航抽屉
+动作条
+对话
+交互
+某个对象与其他对象交互的方式由它们在“父-子”层次中所处位置决定。
+比如：
+“子”元素与其“父”元素在Z轴上的分离距离最近；其他对象不能插入父子元素之间。
+在一个滚动的卡片集合中，所有卡片之间都是同层次的“兄弟”元素，因此它们就像坐在同一马车上的两个对象一样共同移动。它们都是控制它们移动的卡片集合对象的子元素。
+高度
+你会如何确定某些对象的高度（即它们在Z空间的位置）取决于你想描述的内容层次以及某一个对象是否需要相对于其他对象自主移动。
+随着父表的移动，升高的按钮（它的子元素）会伴随着它移出屏幕。
+随着卡片集合卷出了屏幕，它的子卡片也会随之卷出屏幕。浮动动作按钮保留在某一地点因为它的父元素没有被卷动。
 
 
 
