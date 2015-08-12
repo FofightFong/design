@@ -95,7 +95,6 @@ Material design 中的对象与现实生活中的对象具有相似的性质。�
 敲击状态：8dp
 
 ![](https://github.com/zhaochong/material-design/blob/master/images/3_12.png)
-![](https://github.com/zhaochong/material-design/blob/master/images/3_13.png)
 
 **浮动动作按钮（FAB）**
 
@@ -104,7 +103,67 @@ Material design 中的对象与现实生活中的对象具有相似的性质。�
 敲击状态：12dp
 
 ![](https://github.com/zhaochong/material-design/blob/master/images/3_14.png)
-![](https://github.com/zhaochong/material-design/blob/master/images/3_15.png)
+
+**卡片**
+
+静态：2dp
+
+选中状态：8dp
+
+![](https://github.com/zhaochong/material-design/blob/master/images/3_16.png)
+
+**菜单和子菜单**
+
+菜单：8dp
+
+子菜单：9dp（为子菜单增加 1dp）
+
+![](https://github.com/zhaochong/material-design/blob/master/images/3_18.png)
+
+**对话框**
+
+24dp
+
+![](https://github.com/zhaochong/material-design/blob/master/images/3_19.png)
+
+**导航抽屉和右抽屉**
+
+16dp
+
+![](https://github.com/zhaochong/material-design/blob/master/images/3_20.png)
+
+**底部单页**
+
+16dp
+
+![](https://github.com/zhaochong/material-design/blob/master/images/3_21.png)
+
+**刷新按钮**
+
+3dp
+
+![](https://github.com/zhaochong/material-design/blob/master/images/3_22.png)
+
+
+**快速查询/搜索条**
+
+静止状态：2dp
+
+滚动状态：3dp
+
+![](https://github.com/zhaochong/material-design/blob/master/images/3_23.png)
+
+**Snackbar**
+
+6dp
+
+![](https://github.com/zhaochong/material-design/blob/master/images/3_25.png)
+
+**切换按钮**
+
+1dp
+
+![](https://github.com/zhaochong/material-design/blob/master/images/3_26.png)
 
 
 
