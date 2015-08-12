@@ -27,10 +27,10 @@
 ![](https://github.com/zhaochong/material-design/blob/master/images/6_4.png)
 迷你浮动操作按钮红线
 
-浮动操作按钮在被关注时会出现水墨，在被选中时会弹出来。
+浮动操作按钮在被聚焦时会出现水墨，在被选中时会弹出来。
 
 vedio
-浮动操作按钮获得关注
+浮动操作按钮获得焦点
 
 vedio
 浮动操作按钮被选中
