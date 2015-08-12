@@ -17,7 +17,7 @@
 
 平板上，标签宽度和对齐方式由屏幕尺寸、方向以及菜单数量决定。标签可以全排也可以固定，可以居左、居中或者居右。
 
-查看标签以获取更多信息。
+查看[标签](https://www.google.com/design/spec/components/tabs.html)以获取更多信息。
 
 ![](https://github.com/zhaochong/material-design/blob/master/images/15_3.png)
 平板上的带有四个段落的全排标签示例
@@ -32,7 +32,7 @@
 
 导航抽屉可以被用作导航。默认关闭，只在一个段落被选中时暂时打开。
 
-查看 UI Regions and Guidance 获取关于顶层导航策略的更多信息。
+查看 [UI Regions and Guidance](https://www.google.com/design/spec/layout/structure.html#structure-ui-regions) 获取关于顶层导航策略的更多信息。
 
 ![](https://github.com/zhaochong/material-design/blob/master/images/15_6.png)
 关闭状态侧边导航的手机示例
