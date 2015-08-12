@@ -1,7 +1,7 @@
 # 空状态
 空状态发生于一个常规内容页面不能显示时。可能是一个没有条目的列表，或者一个没有返回结果的搜索。虽然这些情况不是典型的，但也是展示良好设计以避免用户失望或者困惑的好机会。
 
-如果因为一个系统错误不能显示内容，参见 app errors。
+如果因为一个系统错误不能显示内容，参见 [app errors](https://www.google.com/design/spec/patterns/errors.html#errors-app-errors)。
 
 > 显示空状态
 
