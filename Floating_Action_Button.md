@@ -29,19 +29,27 @@
 
 浮动操作按钮在被聚焦时会出现水墨，在被选中时会弹出来。
 
-vedio
+```
+<video crossorigin="anonymous"  loop  controls width="360" height="640">
+<source src="http://materialdesign.qiniudn.com/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsalp0a21uSHFVYjA/components-buttons-fab_01_xhdpi_002.webm" type="video/webm">
+</video>
+```
 浮动操作按钮获得焦点
 
-vedio
+```
+<video crossorigin="anonymous"  loop  controls width="360" height="640">
+<source src="http://materialdesign.qiniudn.com/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsWDNDYXc2NXJUNDQ/components-buttons-fab_02_xhdpi_002.webm" type="video/webm">
+</video>
+```
 浮动操作按钮被选中
 
 不是每个屏幕都需要浮动操作按钮。一个浮动操作按钮能够代表这个 App 中的主要操作
 
 ![](https://github.com/zhaochong/material-design/blob/master/images/6_5.png)
-主要操作是在画廊里触摸图片，所以不需要任何按钮。
+正确：主要操作是在画廊里触摸图片，所以不需要任何按钮。
 
 ![](https://github.com/zhaochong/material-design/blob/master/images/6_6.png)
-主要操作是添加文件夹。
+正确：主要操作是添加文件夹。
 
 一个屏幕只推荐使用一个浮动操作按钮来增加其显著性。它应该只代表最常见的操作。
 
@@ -92,21 +100,49 @@ APP 主要操作的图案强制使用圆形图标
 
 浮动操作按钮因为其相对重要性，可能以不同于其他 UI 的方式在屏幕上出现和移动。要考虑各元素出现的位置和怎样把浮动操作按钮放到合适的位置上去。
 
-vedio
+```
+<video crossorigin="anonymous"  loop  controls width="360" height="640">
+<source src="http://materialdesign.qiniudn.com/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsWVlROHRlam9FMUU/components-buttons-fab-behavior_01_xhdpi_012.webm" type="video/webm">
+</video>
+```
 
-vedio
+```
+<video crossorigin="anonymous"  loop  controls width="360" height="640">
+<source src="http://materialdesign.qiniudn.com/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsUTF4ZkdXSmp6b0E/components-buttons-fab-behavior_02_xhdpi_012.webm" type="video/webm">
+</video>
+```
 
 如果在多个旁边的屏幕上有浮动操作按钮（比如选项卡），在进入屏幕时，若在每个屏幕上的操作不同，按钮应该显示和隐藏。若操作相同，按钮应该停留在屏幕上（如果有需要，转换到新的位置上）
 
-vedio
+```
+<video crossorigin="anonymous"  loop  controls width="360" height="640">
+<source src="http://materialdesign.qiniudn.com/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsWm9PdVplYzZvNTg/components-buttons-fab-behavior_03_xhdpi_001.webm" type="video/webm">
+</video>
+```
+正确
 
-vedio
+```
+<video crossorigin="anonymous"  loop  controls width="360" height="640">
+<source src="http://materialdesign.qiniudn.com/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsVlhxNGJCNTEzNFU/components-buttons-fab-behavior_04_xhdpi_009.webm" type="video/webm">
+</video>
+```
+正确
 
 对于带有标签的屏幕，浮动操作按钮不应朝着屏幕退出时的同一方向退出屏幕。否则会导致视觉噪音。这也将导致在屏幕上出现一个失灵的浮动操作按钮。此外，它错误地暗示了浮动操作按钮与内容在相同的 Z 水平高度上，而不是在根水平高度中 UI 主元素所在的水平高度的上。
 
-vedio
+```
+<video crossorigin="anonymous"  loop  controls width="360" height="640">
+<source src="http://materialdesign.qiniudn.com/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsMGF1M0lwX2NEOHc/components-buttons-fab-behavior_05_xhdpi_009.webm" type="video/webm">
+</video>
+```
+错误
 
-vedio
+```
+<video crossorigin="anonymous"  loop  controls width="360" height="640">
+<source src="http://materialdesign.qiniudn.com/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsNVRkV3FZMktvMWc/components-buttons-fab-behavior_06_xhdpi_009.webm" type="video/webm">
+</video>
+```
+错误
 
 ## 过渡
 ### 过渡
@@ -117,10 +153,18 @@ vedio
 ### 触发器
 浮动操作按钮可以只是简单地触发一个操作或是某处的导航。触摸脉动的动画随着导致变化的力量而向外扩张。
 
-vedio
+```
+<video crossorigin="anonymous"  loop  controls width="360" height="640">
+<source src="http://materialdesign.qiniudn.com/publish/material_v_4/material_ext_publish/0B8v7jImPsDi-dWREN3hZR1dmZWs/components-buttons-fab-transition_trigger_01.webm" type="video/webm">
+</video>
+```
 一个浮动操作按钮可以简单地触发一个操作。
 
-vedio
+```
+<video crossorigin="anonymous"  loop  controls width="360" height="640">
+<source src="http://materialdesign.qiniudn.com/publish/material_v_4/material_ext_publish/0B8v7jImPsDi-S01HZEpTMEdaUkk/components-buttons-fab-transition_trigger_02.webm" type="video/webm">
+</video>
+```
 浮动操作按钮让地图视图回到中心位置
 
 App 通常使用一个单一的浮动操作按钮。然而，本例使用了两个浮动操作按钮，因为它们执行同样重要但独特的操作。
@@ -128,18 +172,34 @@ App 通常使用一个单一的浮动操作按钮。然而，本例使用了两�
 ### 工具栏
 浮动操作按钮可在按下时或从滚动工具栏转换为工具栏。工具栏可以包含相关的操作、文本和搜索方面功能，或者任何手边有用的部件。
 
-vedio
+```
+<video crossorigin="anonymous"  loop  controls width="360" height="640">
+<source src="http://materialdesign.qiniudn.com/publish/material_v_4/material_ext_publish/0B8v7jImPsDi-NXNEaXZ0Um1yc0k/components-buttons-fab-transition_toolbar_01.webm" type="video/webm">
+</video>
+```
 浮动操作按钮变成一个工具栏
 
-vedio
+```
+<video crossorigin="anonymous"  loop  controls width="360" height="640">
+<source src="http://materialdesign.qiniudn.com/publish/material_v_4/material_ext_publish/0B8v7jImPsDi-ajMzVHp3VzJ4UkU/components-buttons-fab-transition_toolbar_02.webm" type="video/webm">
+</video>
+```
 浮动操作按钮变成一个工具栏
 
 一个工具栏在滚动条上消失对屏幕来说非常有用。而整个工具栏在屏幕的初始输入或一个长列表的顶部或底部时非常需要。
 
-vedio
+```
+<video crossorigin="anonymous"  loop  controls width="360" height="640">
+<source src="http://materialdesign.qiniudn.com/publish/material_v_4/material_ext_publish/0B8v7jImPsDi-TTlIcU5hTjFXNEk/components-buttons-fab-transition_scrolltoolbar_01.webm" type="video/webm">
+</video>
+```
 工具栏在滚动时转变成一个浮动操作按钮
 
-vedio
+```
+<video crossorigin="anonymous"  loop  controls width="360" height="640">
+<source src="http://materialdesign.qiniudn.com/publish/material_v_4/material_ext_publish/0B8v7jImPsDi-MnVVYmJTcTBoSGs/components-buttons-fab-transition_scrolltoolbar_02.webm" type="video/webm">
+</video>
+```
 工具栏在滚动时转变成一个浮动操作按钮
 
 如果一个浮动行为按钮变成一个工具栏，那么这个工具栏应包含相关的操作功能。
@@ -153,18 +213,34 @@ vedio
 ### 快速拨号
 浮动动作按钮可在按下时将相关动作实现。按钮在菜单被调用后应扔保留在屏幕上。点击同一点应能够激活最常用的操作或关闭已打开的菜单。
 
-vedio
+```
+<video crossorigin="anonymous"  loop  controls width="360" height="640">
+<source src="http://materialdesign.qiniudn.com/publish/material_v_4/material_ext_publish/0B8v7jImPsDi-ZFR3dGtLUjZad1U/components-buttons-fab-transition_speeddial_01.webm" type="video/webm">
+</video>
+```
 一个浮动的操作按钮能够释放相关的操作。
 
-vedio
+```
+<video crossorigin="anonymous"  loop  controls width="360" height="640">
+<source src="http://materialdesign.qiniudn.com/publish/material_v_4/material_ext_publish/0B8v7jImPsDi-ajh6QTBYN05YVDg/components-buttons-fab-transition_speeddial_02.webm" type="video/webm">
+</video>
+```
 一个浮动的操作按钮能够释放相关的操作。
 
 浮动操作按钮可以转变为一个包含所有操作的 material 单页。
 
-vedio
+```
+<video crossorigin="anonymous"  loop  controls width="360" height="640">
+<source src="http://materialdesign.qiniudn.com/publish/material_v_4/material_ext_publish/0B8v7jImPsDi-d09QRUZzVUdMSFk/components-buttons-fab-transition_card_01.webm" type="video/webm">
+</video>
+```
 一个浮动按钮转变为一个 materila 单页
 
-vedio
+```
+<video crossorigin="anonymous"  loop  controls width="360" height="640">
+<source src="http://materialdesign.qiniudn.com/publish/material_v_4/material_ext_publish/0B8v7jImPsDi-TjBicTdvQjg4M1E/components-buttons-fab-transition_card_02.webm" type="video/webm">
+</video>
+```
 一个浮动按钮转变为一个 materila 单页
 
 作为一个通用规则，按动按钮时保持三个以上的选项，但不要超过六个，包括原来的浮动操作按钮。如果你有两个选项，即，你的浮动操作按钮只弹出了另外一个选项——选择哪个操作是最重要的。如果选项超过六个，用户可能在选择上有困惑。
@@ -222,10 +298,18 @@ vedio
 
 变形动画应该是可逆的，可以将新的 material 单页变回为浮动操作按钮。
 
-vedio
+```
+<video crossorigin="anonymous"  loop  controls width="360" height="640">
+<source src="http://materialdesign.qiniudn.com/publish/material_v_4/material_ext_publish/0B8v7jImPsDi-NF9TWTN0Q3lMZWc/components-buttons-fab-transition_morph_01.webm" type="video/webm">
+</video>
+```
 浮动操作按钮可以变形为一个 material 单页，app 结构中的一部分。
 
-vedio
+```
+<video crossorigin="anonymous"  loop  controls width="360" height="640">
+<source src="http://materialdesign.qiniudn.com/publish/material_v_4/material_ext_publish/0B8v7jImPsDi-c0UwMFAyQU5Jb1U/components-buttons-fab-transition_morph_02.webm" type="video/webm">
+</video>
+```
 浮动操作按钮可以变形为一个 material 单页，app 结构中的一部分。
 
 ### 满屏
@@ -233,10 +317,18 @@ vedio
 
 这种戏剧性的转变通常与创造新的内容相关。其结果是，它不趋向于具有撤销转变或可逆操作的方法
 
-vedio
+```
+<video crossorigin="anonymous"  loop  controls width="360" height="640">
+<source src="http://materialdesign.qiniudn.com/publish/material_v_4/material_ext_publish/0B8v7jImPsDi-R2E3UGZZaHpORWc/components-buttons-fab-transition_fullscreen_01.webm" type="video/webm">
+</video>
+```
 浮动动作按钮可以转变成占满整个屏幕的新型物品。
 
-vedio
+```
+<video crossorigin="anonymous"  loop  controls width="360" height="640">
+<source src="http://materialdesign.qiniudn.com/publish/material_v_4/material_ext_publish/0B8v7jImPsDi-RWVHZjYybnlDeUE/components-buttons-fab-transition_fullscreen_02.webm" type="video/webm">
+</video>
+```
 浮动动作按钮可以转变成占满整个屏幕的新型物品。
 
 ## 大屏幕
