@@ -15,10 +15,18 @@
 ### 高度和宽度
 用户触摸的表面应该提升并且扩展到它原生的地方。这种扩张和运动将父元素到子元素的移动高亮，使用 material 运动曲线进行的自然运动。
 
-vedio
+```
+<video crossorigin="anonymous"  loop  controls width="760" height="360">
+<source src="http://materialdesign.qiniudn.com/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsWjgyVU9kMWN0V2s/patterns_navigational-transitions_parent-to-child_list-02_xhdpi_019.webm" type="video/webm">
+</video>
+```
 父元素到子元素的过渡动画
 
-vedio
+```
+<video crossorigin="anonymous"  loop  controls width="760" height="360">
+<source src="http://materialdesign.qiniudn.com/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsMUd1ZVRWX3p1Y3c/patterns_navigational-transitions_parent-to-child_calendar_tablet_xhdpi_004.webm" type="video/webm">
+</video>
+```
 父元素到子元素的过渡动画效果
 
 ## 兄弟元素到兄弟元素
@@ -27,10 +35,18 @@ vedio
 ### 静态高度
 当一个用户通过标签进行导航，将不会有高度变化。每个标签的内容和表面保持同样的高度。兄弟元素向左移出屏幕时，新的内容从右边滑进来。
 
-vedio
+```
+<video crossorigin="anonymous"  loop  controls width="760" height="360">
+<source src="http://materialdesign.qiniudn.com/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsRWUyLVJ6b2ZHSFk/patterns_navigational-transitions_sibling-to-sibling_tabs-01_xhdpi_013.webm" type="video/webm">
+</video>
+```
 兄弟元素过渡
 
-vedio
+```
+<video crossorigin="anonymous"  loop  controls width="360" height="640">
+<source src="http://materialdesign.qiniudn.com/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsa1RlU3Y2SDJWREE/patterns_navigational-transitions_sibling-to-sibling_tabs-02_xhdpi_003.webm" type="video/webm">
+</video>
+```
 兄弟元素到兄弟元素的过渡动画
 
 
