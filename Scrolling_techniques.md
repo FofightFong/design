@@ -10,10 +10,10 @@
 - 标签条、搜索条
 - 灵活区域：容纳一个预定比例的图片或者扩展应用条的空间
 
-![]()
+![](https://github.com/zhaochong/material-design/blob/master/images/16_1.png)
 应用条组件可以包含：状态条、导航条、标签/搜索条，以及灵活区域
 
-![]()
+![](https://github.com/zhaochong/material-design/blob/master/images/16_2.png)
 状态条、导航条、标签/搜索条以及灵活区域的例子
 
 ### 标准应用条
@@ -23,7 +23,7 @@
 - 1.应用条可以将内容滚动到屏幕外面，当滚动返回时再次显示。
 - 2.应用条可以固定在顶部，内容在下面进行滚动。
 
-![]()
+![](https://github.com/zhaochong/material-design/blob/master/images/16_3.png)
 标准应用条
 
 vedio
@@ -37,7 +37,7 @@ vedio
 - 2.应用条固定在顶部，内容在下面滚动。
 - 3.工具条和标签条都随着内容滚动。反向滚动时标签条重现，反向滚动完成时工具条重现。
 
-![]()
+![](https://github.com/zhaochong/material-design/blob/master/images/16_4.png)
 状态条、工具条以及标签条
 
 vedio
@@ -50,7 +50,7 @@ vedio
 - 1.可变区域收缩直到只剩工具条。导航条上的标题收缩到 20 sp。滚动到页面顶部时，可变区域以及标题再次回到位置。
 - 2.整个应用条滚出屏幕。当用户反向滚动时，工具条变回到固定在顶部。当滚回所有内容时，可变区域和标题重新回到位置。
 
-![]()
+![](https://github.com/zhaochong/material-design/blob/master/images/16_5.png)
 状态条、工具条以及可变区域
 
 vedio
@@ -61,7 +61,7 @@ vedio
 
 本例中，视觉比例是4：3。滚动时，内容将图片推上去，收缩可变区域。转变的最后，图片以主色着色，不再受滚动影响。
 
-![]()
+![](https://github.com/zhaochong/material-design/blob/master/images/16_6.png)
 状态条、工具条以及可变区域
 
 vedio
@@ -75,7 +75,7 @@ vedio
 
 在这种交互中，应用条不能包含标签。
 
-![]()
+![](https://github.com/zhaochong/material-design/blob/master/images/16_7.png)
 **可变区域**
 
 状态条：24 dp
