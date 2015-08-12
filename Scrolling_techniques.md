@@ -4,7 +4,7 @@
 
 ## 滚动
 ### 滚动区域
-设计滚动行为时，应用条包含四个主要区域（当作区块），构成滚动结构：
+设计滚动行为时，应用条包含四个主要区域（称作`区块`），构成滚动结构：
 - 状态条
 - 工具条
 - 标签条、搜索条
@@ -26,11 +26,15 @@
 ![](https://github.com/zhaochong/material-design/blob/master/images/16_3.png)
 标准应用条
 
-vedio
+```
+<video crossorigin="anonymous"  loop  controls width="360" height="640">
+<source src="http://materialdesign.qiniudn.com/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsR1lZQUxtWFRFMEU/patterns-scrolling-techniques_standard_appbar_xhdpi_004.webm" type="video/webm">
+</video>
+```
 工具条在滚动时移出屏幕的动画效果
 
 ### 标签
-标准应用条是最重要的组件，包含下列区块：工具条、标签条或者灵活区域。
+[标准应用条](http://www.google.com/design/spec/layout/structure.html#structure-app-bar)是最重要的组件，包含下列区块：工具条、标签条或者灵活区域。
 
 可以具有下列行为：
 - 1.工具条滚动时，标签条固定在顶部。
@@ -40,7 +44,11 @@ vedio
 ![](https://github.com/zhaochong/material-design/blob/master/images/16_4.png)
 状态条、工具条以及标签条
 
-vedio
+```
+<video crossorigin="anonymous"  loop  controls width="360" height="640">
+<source src="http://materialdesign.qiniudn.com/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsQ0ZQalNKOGxTNjA/patterns-scrolling-techniques_tabs_xhdpi_004.webm" type="video/webm">
+</video>
+```
 工具条滚动、标签条以及应用条固定的动画效果。
 
 ### 灵活区域
@@ -53,7 +61,11 @@ vedio
 ![](https://github.com/zhaochong/material-design/blob/master/images/16_5.png)
 状态条、工具条以及可变区域
 
-vedio
+```
+<video crossorigin="anonymous"  loop  controls width="360" height="640">
+<source src="http://materialdesign.qiniudn.com/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsRTM1M1lCWWZiN2c/patterns-scrolling-techniques-flexible_space_xhdpi_003.webm" type="video/webm">
+</video>
+```
 显示滚动时灵活区域的动画
 
 ### 带有图片的灵活区域
@@ -64,7 +76,11 @@ vedio
 ![](https://github.com/zhaochong/material-design/blob/master/images/16_6.png)
 状态条、工具条以及可变区域
 
-vedio
+```
+<video crossorigin="anonymous"  loop  controls width="360" height="640">
+<source src="http://materialdesign.qiniudn.com/publish/material_v_4/material_ext_publish/0B6Okdz75tqQscXNQY3dNdVlYeTQ/patterns-scrolling-techniques_flex_space_image_xhdpi_003.webm" type="video/webm">
+</video>
+```
 显示滚动时的可变区域和图片的动画效果
 
 ### 具有重叠内容的可变区域
@@ -82,8 +98,16 @@ vedio
 
 工具条：56 dp/64 dp
 
-vedio
+```
+<video crossorigin="anonymous"  loop  controls width="360" height="640">
+<source src="http://materialdesign.qiniudn.com/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsRVpzZG0zZGVNSXM/patterns-scrolling-techniques_flex_space_overlap_xhdpi_003.webm" type="video/webm">
+</video>
+```
 显示滚动时可变区域和重叠内容的动画效果
 
-vedio
+```
+<video crossorigin="anonymous"  loop  controls width="360" height="115">
+<source src="http://materialdesign.qiniudn.com/publish/material_v_4/material_ext_publish/0B3T7oTWa3HiFa3gtd2EzR2dsSDA/patterns_scrollingtechnique_flexibleoverlap.webm" type="video/webm">
+</video>
+```
 z-轴图表，侧边视角
