@@ -9,7 +9,7 @@
 
 低对比效果结合 gamma 和 black output（专为黑色图片）的转换。
 
-![]()
+![](https://github.com/zhaochong/material-design/blob/master/images/14_1.png)
 **加载图片时的透明度、曝光度以及饱和度建议**
 
 透明度：0% 开始，100%结束
@@ -18,13 +18,13 @@
 
 饱和度: 0 或者 20% 开始, 100% 结束
 
-![]()
+![](https://github.com/zhaochong/material-design/blob/master/images/14_2.png)
 低透明度以及低对比度
 
-![]()
+![](https://github.com/zhaochong/material-design/blob/master/images/14_3.png)
 完全透明和曝光
 
-![]()
+![](https://github.com/zhaochong/material-design/blob/master/images/14_4.png)
 颜色饱和度
 
 ### 逐渐增强过程
@@ -32,10 +32,10 @@
 
 注意不要让图片过度曝光。
 
-![]()
+![](https://github.com/zhaochong/material-design/blob/master/images/14_5.png)
 正确
 
-![]()
+![](https://github.com/zhaochong/material-design/blob/master/images/14_6.png)
 错误
 
 ### 持续时间
