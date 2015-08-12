@@ -41,10 +41,10 @@
 
 四分之三的水平标签具有推荐大小并通过使用短字符串来避免在小型设备上发生卷曲显示。
 
-![]()
+![](https://github.com/zhaochong/material-design/blob/master/images/10_1.png)
 有两个标签的移动端实例
 
-![]()
+![](https://github.com/zhaochong/material-design/blob/master/images/10_2.png)
 有三个标签的移动端实例
 
 ### 平板和桌面
@@ -52,13 +52,13 @@
 - 全排或固定的
 - 向左、中或右对齐
 
-![]()
+![](https://github.com/zhaochong/material-design/blob/master/images/10_3.png)
 具有四节全排标签的平板
 
-![]()
+![](https://github.com/zhaochong/material-design/blob/master/images/10_4.png)
 左对齐固定并包含标题和拓展题头标签的平板
 
-![]()
+![](https://github.com/zhaochong/material-design/blob/master/images/10_5.png)
 具有中部固定标签的桌面
 
 ### 侧面导航与导航抽屉
@@ -73,22 +73,22 @@
 ### 移动与平板
 导航抽屉是默认被关闭的，只有在某一节被选中的时候才能临时开启。
 
-![]()
+![](https://github.com/zhaochong/material-design/blob/master/images/10_6.png)
 一个关闭侧导航的移动端实例
 
-![]()
+![](https://github.com/zhaochong/material-design/blob/master/images/10_7.png)
 一个开启侧导航的移动端实例
 
-![]()
+![](https://github.com/zhaochong/material-design/blob/master/images/10_8.png)
 一个关闭侧导航的平板实例
 
-![]()
+![](https://github.com/zhaochong/material-design/blob/master/images/10_9.png)
 一个开启侧导航的平板实例
 
 ### 桌面
 导航可以直接出现在页面上，而不是在抽屉里。
 
-![]()
+![](https://github.com/zhaochong/material-design/blob/master/images/10_10.png)
 一个侧导航的桌面实例
 
 ## 混合导航策略
@@ -102,33 +102,32 @@
 
 向上箭头被用于返回前一层级
 
-![]()
+![](https://github.com/zhaochong/material-design/blob/master/images/10_11.png)
 将导航与内容进行混合的一个移动端实例
 
-![]()
+![](https://github.com/zhaochong/material-design/blob/master/images/10_12.png)
 一个向上箭头的移动端实例
 
-![]()
+![](https://github.com/zhaochong/material-design/blob/master/images/10_13.png)
 在内容中嵌入导航的一个平板实例
 
-![]()
+![](https://github.com/zhaochong/material-design/blob/master/images/10_14.png)
 一个向上箭头的平板实例
 
 ### 侧导航与标签的结合
-![]()
 具有双层级导航的产品可能同时具有一个左侧导航抽屉和标签。
 
-![]()
+![](https://github.com/zhaochong/material-design/blob/master/images/10_15.png)
 使用双层级导航的移动端实例：一个导航抽屉和标签
 
-![]()
+![](https://github.com/zhaochong/material-design/blob/master/images/10_16.png)
 开启左侧导航的一个移动端实例
 
-![]()
+![](https://github.com/zhaochong/material-design/blob/master/images/10_17.png)
 使用双层级导航的平板实例：一个导航抽屉和标签
 
-![]()
+![](https://github.com/zhaochong/material-design/blob/master/images/10_18.png)
 在标签前开启左侧导航的一个平板实例
 
-![]()
+![](https://github.com/zhaochong/material-design/blob/master/images/10_19.png)
 使用双层级导航的桌面实例：一个导航抽屉和标签
