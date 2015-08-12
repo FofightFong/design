@@ -17,10 +17,10 @@
 
 品牌启动页面提供了短暂的品牌曝光，让 UI 聚焦于内容上面。
 
-![]()
+![](https://github.com/zhaochong/material-design/blob/master/images/13_1.png)
 品牌启动页面
 
-![]()
+![](https://github.com/zhaochong/material-design/blob/master/images/13_2.png)
 占位 UI
 
 ## 占位 UI
@@ -28,7 +28,7 @@
 
 启动时，核心结构元素例如状态条，应用条，以及底部页不带内容显示，直到应用加载。
 
-![]()
+![](https://github.com/zhaochong/material-design/blob/master/images/13_3.png)
 
 ## 品牌启动页面
 品牌启动页面是加载一个应用时塑造品牌的好方法。利用加载时间来显示你的商标或者其他提升品牌认知度的元素。避免在页面上使用商标之外的文本，如果可用的话，标语。
@@ -36,11 +36,11 @@
 #### 品牌启动页面
 启动页面应该被用做从主页面触发的初始化冷启动，并且不应该出现于应用运行中，或者从其他应用切换过来。
 
-![]()
+![](https://github.com/zhaochong/material-design/blob/master/images/13_4.png)
 
-![]()
+![](https://github.com/zhaochong/material-design/blob/master/images/13_5.png)
 
-![]()
+![](https://github.com/zhaochong/material-design/blob/master/images/13_6.png)
 
-![]()
+![](https://github.com/zhaochong/material-design/blob/master/images/13_7.png)
 
