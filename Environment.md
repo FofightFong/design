@@ -15,6 +15,14 @@ Material 环境是一个三维的空间，这意味着每个对象都有 x ， y
 在 material 环境中，虚拟的光线照射使场景中的对象投射出阴影，主光源投射出一个定向的阴影，而环境光从各个角度投射出连贯又柔和的阴影。
 material环境中的所有阴影都是由这两种光投射产生的，阴影是光线照射不到的地方,因为各个元素在z轴上占据了不同大小的位置遮挡住了这些光线。
 
+![](https://github.com/zhaochong/material-design/blob/master/images/1_1.png)
+直射光投射的阴影
+
+![](https://github.com/zhaochong/material-design/blob/master/images/1_2.png)
+散射光投射的阴影
+
+![](https://github.com/zhaochong/material-design/blob/master/images/1_3.png)
+直射光和散射光混合投影
 
 
 
